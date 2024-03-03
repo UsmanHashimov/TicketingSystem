@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.api\\controllers\\identity\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|solutionrelative:ticketingsystem.api\\controllers\\identity\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Migrations\\20240303135120_Second_Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketingSystem.Infrastructure\\Migrations\\20240303135120_Second_Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\enums\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\enums\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|solutionrelative:ticketingsystem.api\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\services\\ticketservices\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\services\\ticketservices\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|solutionrelative:ticketingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\abstractions\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\abstractions\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\abstractions\\iservices\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\abstractions\\iservices\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|solutionrelative:ticketingsystem.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|solutionrelative:ticketingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.api\\attributes\\identityfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7351CBE-AD5F-455F-9532-676AD427F093}|TicketingSystem.API\\TicketingSystem.API.csproj|solutionrelative:ticketingsystem.api\\attributes\\identityfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\services\\userservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\models\\requestlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\models\\requestlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\models\\responcelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\models\\responcelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\abstractions\\irepositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\abstractions\\irepositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\abstractions\\irepositories\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\abstractions\\irepositories\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|solutionrelative:ticketingsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\abstractions\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\abstractions\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|solutionrelative:ticketingsystem.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.infrastructure\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|solutionrelative:ticketingsystem.infrastructure\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|solutionrelative:ticketingsystem.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\applicationdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\applicationdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.domain\\entities\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17658DAB-32DD-4176-BF20-51A630DC09F3}|TicketingSystem.Domain\\TicketingSystem.Domain.csproj|solutionrelative:ticketingsystem.domain\\entities\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC65014-14E0-4BCA-A25D-C94DA3BBE0B7}|TicketingSystem.Infrastructure\\TicketingSystem.Infrastructure.csproj|solutionrelative:ticketingsystem.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|c:\\users\\a c e r   n i t r o\\documents\\.net\\exam\\ticketingsystem\\ticketingsystem.application\\abstractions\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C118332-FD6B-4C97-978B-BFE8712A13E8}|TicketingSystem.Application\\TicketingSystem.Application.csproj|solutionrelative:ticketingsystem.application\\abstractions\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Controllers\\Identity\\AuthController.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.API\\Controllers\\Identity\\AuthController.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Controllers\\Identity\\AuthController.cs",
+              "RelativeToolTip": "TicketingSystem.API\\Controllers\\Identity\\AuthController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:58:34.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240303135120_Second_Migration.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Migrations\\20240303135120_Second_Migration.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Infrastructure\\Migrations\\20240303135120_Second_Migration.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Migrations\\20240303135120_Second_Migration.cs",
+              "RelativeToolTip": "TicketingSystem.Infrastructure\\Migrations\\20240303135120_Second_Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:51:21.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdentityFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Attributes\\IdentityFilterAttribute.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.API\\Attributes\\IdentityFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Attributes\\IdentityFilterAttribute.cs",
+              "RelativeToolTip": "TicketingSystem.API\\Attributes\\IdentityFilterAttribute.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:14:30.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Enums\\Permission.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\Enums\\Permission.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Enums\\Permission.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\Enums\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T13:01:12.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TicketingSystem.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T11:01:06.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.API\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "TicketingSystem.API\\Controllers\\TicketController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T11:01:42.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Services\\TicketServices\\TicketService.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Services\\TicketServices\\TicketService.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Services\\TicketServices\\TicketService.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Services\\TicketServices\\TicketService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:09:47.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T12:51:45.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IServices\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Abstractions\\IServices\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IServices\\IAuthService.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Abstractions\\IServices\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T12:48:41.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.API\\Program.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\Program.cs",
+              "RelativeToolTip": "TicketingSystem.API\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:27:05.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IServices\\ITicketService.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Abstractions\\IServices\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IServices\\ITicketService.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Abstractions\\IServices\\ITicketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:00:28.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketingSystem.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.API\\appsettings.json",
+              "RelativeToolTip": "TicketingSystem.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-03T10:50:37.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Services\\UserServices\\UserService.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Services\\UserServices\\UserService.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Services\\UserServices\\UserService.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Services\\UserServices\\UserService.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAgwGMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:03:33.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RequestLogin.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\RequestLogin.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\Models\\RequestLogin.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\RequestLogin.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\Models\\RequestLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T12:49:52.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResponceLogin.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\ResponceLogin.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\Models\\ResponceLogin.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\ResponceLogin.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\Models\\ResponceLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T12:50:18.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:55:30.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\User.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:12:16.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TicketingSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:55:46.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IRepositories\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Abstractions\\IRepositories\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IRepositories\\IBaseRepository.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Abstractions\\IRepositories\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:50:00.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "TicketingSystem.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:54:07.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Abstractions\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IServices\\IUserService.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Abstractions\\IServices\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:58:49.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IRepositories\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Abstractions\\IRepositories\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IRepositories\\ITicketRepository.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Abstractions\\IRepositories\\ITicketRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:51:24.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationDI.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\ApplicationDI.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\ApplicationDI.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\ApplicationDI.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\ApplicationDI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:21:52.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InfrastructureDI.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\InfrastructureDI.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Infrastructure\\InfrastructureDI.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\InfrastructureDI.cs",
+              "RelativeToolTip": "TicketingSystem.Infrastructure\\InfrastructureDI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:02:52.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Persistence\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Infrastructure\\Persistence\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Persistence\\ApplicationDBContext.cs",
+              "RelativeToolTip": "TicketingSystem.Infrastructure\\Persistence\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:51:03.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "TicketingSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:57:12.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\Models\\Ticket.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:46:26.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TicketDTO.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\DTOs\\TicketDTO.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Domain\\Entities\\DTOs\\TicketDTO.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\Entities\\DTOs\\TicketDTO.cs",
+              "RelativeToolTip": "TicketingSystem.Domain\\Entities\\DTOs\\TicketDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T08:55:39.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TicketingSystem.Application\\Abstractions\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\Abstractions\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "TicketingSystem.Application\\Abstractions\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T09:51:00.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
