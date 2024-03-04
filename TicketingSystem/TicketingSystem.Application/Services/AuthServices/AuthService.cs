@@ -7,6 +7,8 @@ using System.Text;
 using System.Text.Json;
 using TicketingSystem.Application.Abstractions.IRepositories;
 using TicketingSystem.Application.Abstractions.IServices;
+using TicketingSystem.Domain.Entities.DTOs;
+using TicketingSystem.Domain.Entities.Exceptions;
 using TicketingSystem.Domain.Entities.Models;
 
 namespace TicketingSystem.Application.Services.AuthServices
@@ -39,13 +41,11 @@ namespace TicketingSystem.Application.Services.AuthServices
 
                 if (findUser.role != "Admin")
                 {
-                    permission = new List<int> { 1, 2, 3, 4, 5, 8, 9, 10 };
+                    permission = new List<int> { 3, 4, 5, 9, 10, 11, 14, 15 };
                 }
                 else
                 {
-                    permission = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
-
-
+                    permission = new List<int> { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
                 }
                 var jsonContent = JsonSerializer.Serialize(permission);
                 List<Claim> claims = new List<Claim>()
@@ -64,6 +64,24 @@ namespace TicketingSystem.Application.Services.AuthServices
             {
                 Token = "Un Authorize"
             };
+        }
+        public async Task<string> SignUp(UserDTO request)
+        {
+            if (request == null)
+            {
+                return "User should not be null";
+            }
+            var user = new User()
+            {
+                Username = request.Username,
+                Email = request.Email,
+                Login = request.Login,
+                Password = request.Password,
+                role = request.role
+            };
+            await _userRepo.Create(user);
+
+            return "Succesfully registered";
         }
 
         public async Task<ResponceLogin> GenerateToken(IEnumerable<Claim> additionalClaims)
@@ -94,20 +112,22 @@ namespace TicketingSystem.Application.Services.AuthServices
             {
                 Token = new JwtSecurityTokenHandler().WriteToken(token)
             };
-
-
         }
         public async Task<User> FindUser(RequestLogin user)
         {
 
             var result = await _userRepo.GetByAny(x => x.Login == user.Login);
-
-            if (user.Login == result.Login && user.Password == result.Password)
+            if (result != null)
             {
-                return result;
+                if (user.Login == result.Login)
+                {
+                    if (user.Password == result.Password)
+                        return result;
+                    throw new UserNotFoundException("Incorrect password! Try again!");
+                }
+                throw new UserNotFoundException("Incorrect login! Try again!");
             }
-
-            return new User();
+            throw new UserNotFoundException("User not found!");
         }
     }
 }

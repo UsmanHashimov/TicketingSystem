@@ -11,22 +11,22 @@ namespace TicketingSystem.API.Controllers
     [Route("api/[controller]/[action]")]
     [ApiController]
     [Authorize]
-    public class UserController : ControllerBase
+    public class bUserController : ControllerBase
     {
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
+        public bUserController(IUserService userService)
         {
             _userService = userService;
         }
 
-        [HttpPost]
-        [IdentityFilter(Permission.CreateUser)]
-        public async Task<ActionResult<string>> CreateUser([FromForm] UserDTO model)
-        {
-            var result = await _userService.Create(model);
+        //[HttpPost]
+        //[IdentityFilter(Permission.CreateUser)]
+        //public async Task<ActionResult<string>> CreateUser([FromForm] UserDTO model)
+        //{
+        //    var result = await _userService.Create(model);
 
-            return Ok(result);
-        }
+        //    return Ok(result);
+        //}
 
         [HttpGet]
         [IdentityFilter(Permission.GetAllUsers)]
@@ -60,6 +60,26 @@ namespace TicketingSystem.API.Controllers
             return res;
         }
 
+        [HttpGet]
+        [IdentityFilter(Permission.GetUserPDF)]
+        public async Task<IActionResult> DownloadFile()
+        {
+            var filePath = await _userService.GetPdfPath();
+
+            if (!System.IO.File.Exists(filePath))
+                return NotFound("File not found");
+
+
+            var fileBytes = System.IO.File.ReadAllBytes(filePath);
+
+
+            var contentType = "application/octet-stream";
+
+            var fileExtension = Path.GetExtension(filePath).ToLowerInvariant();
+
+            return File(fileBytes, contentType, Path.GetFileName(filePath));
+        }
+
         [HttpDelete]
         [IdentityFilter(Permission.DeleteUser)]
         public async Task<ActionResult<string>> DeleteUser(int id)
@@ -74,5 +94,6 @@ namespace TicketingSystem.API.Controllers
         {
             return await _userService.Update(id, userDTO);
         }
+
     }
 }

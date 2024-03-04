@@ -55,6 +55,11 @@ namespace TicketingSystem.Infrastructure.Repositories
             }
         }
 
+        public async Task<List<T>> GetByAnyList(Expression<Func<T, bool>> predicate)
+        {
+            return await _dbSet.Where(predicate).ToListAsync();
+        }
+
         public async Task<T> Update(T entity)
         {
             var result = _dbSet.Update(entity);
