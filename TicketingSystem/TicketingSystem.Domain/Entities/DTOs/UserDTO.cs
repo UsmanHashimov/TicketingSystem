@@ -7,6 +7,7 @@ namespace TicketingSystem.Domain.Entities.DTOs
         public string Username { get; set; }
         [EmailAddress]
         public string Email { get; set; }
+        [EmailAddress]
         public string Login { get; set; }
         [MinLength(6)]
         public string Password { get; set; }

@@ -21,6 +21,28 @@ namespace TicketingSystem.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("TicketingSystem.Domain.Entities.Models.Ticket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Organisator")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("TicketDescription")
+                        .HasColumnType("text");
+
+                    b.Property<string>("TicketName")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tickets");
+                });
+
             modelBuilder.Entity("TicketingSystem.Domain.Entities.Models.User", b =>
                 {
                     b.Property<int>("Id")

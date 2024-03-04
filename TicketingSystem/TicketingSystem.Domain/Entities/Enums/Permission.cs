@@ -2,7 +2,6 @@ namespace TicketingSystem.Domain.Entities.Enums
 {
     public enum Permission
     {
-        CreateUser = 1,
         GetAllUsers = 2,
         GetByUserName = 3,
         GetByUserId = 4,
@@ -14,6 +13,8 @@ namespace TicketingSystem.Domain.Entities.Enums
         GetByTicketName = 10,
         GetAllTickets = 11,
         UpdateTicket = 12,
-        DeleteTicket = 13
+        DeleteTicket = 13,
+        GetUserPDF = 14,
+        PurchaseTicket = 15
     }
 }

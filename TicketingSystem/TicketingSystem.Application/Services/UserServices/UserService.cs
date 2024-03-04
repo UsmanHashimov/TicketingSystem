@@ -1,8 +1,11 @@
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
+using QuestPDF.Infrastructure;
 using TicketingSystem.Application.Abstractions.IRepositories;
 using TicketingSystem.Application.Abstractions.IServices;
 using TicketingSystem.Domain.Entities.DTOs;
+using TicketingSystem.Domain.Entities.Exceptions;
 using TicketingSystem.Domain.Entities.Models;
-
 namespace TicketingSystem.Application.Services.UserServices
 {
     public class UserService : IUserService
@@ -26,6 +29,7 @@ namespace TicketingSystem.Application.Services.UserServices
                     {
                         Username = userDTO.Username,
                         Email = userDTO.Email,
+                        Login = userDTO.Login,
                         Password = userDTO.Password,
                         role = userDTO.role,
                     };
@@ -37,6 +41,7 @@ namespace TicketingSystem.Application.Services.UserServices
             }
             return "This username already exists";
         }
+
         public async Task<string> Delete(int id)
         {
             var result = await _userRepository.Delete(x => x.Id == id);
@@ -46,7 +51,7 @@ namespace TicketingSystem.Application.Services.UserServices
             }
             else
             {
-                return "Failed";
+                throw new UserNotFoundException("User not found!");
             }
         }
 
@@ -56,9 +61,13 @@ namespace TicketingSystem.Application.Services.UserServices
 
             var result = users.Select(model => new User
             {
+                Id = model.Id,
                 Username = model.Username,
                 Email = model.Email,
+                Login = model.Login,
+                Password = model.Password,
                 role = model.role,
+                TicketId = model.TicketId
             });
 
             return result;
@@ -67,19 +76,31 @@ namespace TicketingSystem.Application.Services.UserServices
         public async Task<User> GetByEmail(string email)
         {
             var result = await _userRepository.GetByAny(x => x.Email == email);
-            return result;
+            if (result != null)
+            {
+                return result;
+            }
+            throw new UserNotFoundException("User not found!");
         }
 
         public async Task<User> GetById(int Id)
         {
             var result = await _userRepository.GetByAny(x => x.Id == Id);
-            return result;
+            if (result != null)
+            {
+                return result;
+            }
+            throw new UserNotFoundException("User not found!");
         }
 
         public async Task<User> GetByName(string name)
         {
             var result = await _userRepository.GetByAny(d => d.Username == name);
-            return result;
+            if (result != null)
+            {
+                return result;
+            }
+            throw new UserNotFoundException("User not found!");
         }
 
         public async Task<string> Update(int Id, UserDTO userDTO)
@@ -107,6 +128,62 @@ namespace TicketingSystem.Application.Services.UserServices
                 return "Such login already exists";
             }
             return "Such email already exists";
+        }
+
+        public async Task<string> GetPdfPath()
+        {
+
+            var text = "";
+
+            var getall = await _userRepository.GetAll();
+            foreach (var user in getall.Where(x => x.role != "Admin"))
+            {
+                text = text + $"{user.Username}|{user.Email}\n";
+            }
+
+            DirectoryInfo projectDirectoryInfo =
+            Directory.GetParent(Environment.CurrentDirectory).Parent.Parent;
+
+            var file = Guid.NewGuid().ToString();
+
+            string pdfsFolder = Directory.CreateDirectory(
+                 Path.Combine(projectDirectoryInfo.FullName, "pdfs")).FullName;
+
+            QuestPDF.Settings.License = LicenseType.Community;
+
+            QuestPDF.Fluent.Document.Create(container =>
+            {
+                container.Page(page =>
+                {
+                    page.Size(PageSizes.A4);
+                    page.Margin(2, Unit.Centimetre);
+                    page.PageColor(Colors.White);
+                    page.DefaultTextStyle(x => x.FontSize(20));
+
+                    page.Header()
+                      .Text("Library Users")
+                      .SemiBold().FontSize(36).FontColor(Colors.Blue.Medium);
+
+                    page.Content()
+                      .PaddingVertical(1, Unit.Centimetre)
+                      .Column(x =>
+                      {
+                          x.Spacing(20);
+
+                          x.Item().Text(text);
+                      });
+
+                    page.Footer()
+                      .AlignCenter()
+                      .Text(x =>
+                      {
+                          x.Span("Page ");
+                          x.CurrentPageNumber();
+                      });
+                });
+            })
+            .GeneratePdf(Path.Combine(pdfsFolder, $"{file}.pdf"));
+            return Path.Combine(pdfsFolder, $"{file}.pdf");
         }
     }
 }

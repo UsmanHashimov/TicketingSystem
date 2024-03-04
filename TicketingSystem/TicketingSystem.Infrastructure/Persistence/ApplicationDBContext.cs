@@ -10,5 +10,6 @@ namespace TicketingSystem.Infrastructure.Persistence
         => Database.Migrate();
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Ticket> Tickets { get; set; }
     }
 }

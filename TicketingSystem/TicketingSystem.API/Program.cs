@@ -1,9 +1,9 @@
-using TicketingSystem.Application;
-using TicketingSystem.Infrastructure;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using TicketingSystem.Application;
+using TicketingSystem.Infrastructure;
 
 namespace LibraryManagement.API
 {
