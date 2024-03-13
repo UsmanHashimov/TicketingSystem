@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "HarfBuzzSharp/7.3.0.1": {
         "type": "package",
         "dependencies": {
@@ -1111,6 +1127,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "HarfBuzzSharp/7.3.0.1": {
       "sha512": "/6z6TQBqWWbVpLUw7E/82HZKLT3OAzg/w6z8I6JFNFcYa3nM9RnZ8XGos9nD4buAzThLHpqPw/rb8FdZXEORAQ==",
       "type": "package",
@@ -2931,6 +2962,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.2",
       "Microsoft.IdentityModel.Tokens >= 7.4.0",
@@ -2946,11 +2978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\TicketingSystem.Application.csproj",
+      "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Application\\TicketingSystem.Application.csproj",
       "projectName": "TicketingSystem.Application",
-      "projectPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\TicketingSystem.Application.csproj",
+      "projectPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Application\\TicketingSystem.Application.csproj",
       "packagesPath": "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\obj\\",
+      "outputPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A C E R   N I T R O\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2967,8 +2999,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj"
+            "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj"
             }
           }
         }
@@ -2988,6 +3020,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.2, )"

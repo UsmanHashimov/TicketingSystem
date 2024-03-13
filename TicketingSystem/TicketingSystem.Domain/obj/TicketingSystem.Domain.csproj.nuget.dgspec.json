@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj": {}
+    "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj": {
+    "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj",
         "projectName": "TicketingSystem.Domain",
-        "projectPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj",
+        "projectPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\TicketingSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Domain\\obj\\",
+        "outputPath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A C E R   N I T R O\\AppData\\Roaming\\NuGet\\NuGet.Config",

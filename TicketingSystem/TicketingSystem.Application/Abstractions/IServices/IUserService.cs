@@ -5,7 +5,7 @@ namespace TicketingSystem.Application.Abstractions.IServices
 {
     public interface IUserService
     {
-        //public Task<string> Create(UserDTO userDTO);
+        public Task<string> Create(UserDTO userDTO);
         public Task<User> GetByName(string name);
         public Task<User> GetById(int Id);
         public Task<User> GetByEmail(string email);

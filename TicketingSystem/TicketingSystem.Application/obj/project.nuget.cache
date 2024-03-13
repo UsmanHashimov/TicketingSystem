@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "00vULnwWpvdxDBi2PIApLY0KjVWesUJBn/QnKnXLuYuECSqO7W8vELx3bTpnD2G6IjxPGrkrDJmEysjG2tar4g==",
+  "dgSpecHash": "55YkTN8iswFH7wA7usCcrU4rwG4Hy2wcP5XdwjDV7RP91nFJwR+SQIoIcsgJnyxkcfGbS1Fiesvj3qgfS3P4TA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A C E R   N I T R O\\Documents\\.NET\\Exam\\TicketingSystem\\TicketingSystem.Application\\TicketingSystem.Application.csproj",
+  "projectFilePath": "C:\\Users\\A C E R   N I T R O\\OneDrive\\Документы\\GitHub\\TicketingSystem\\TicketingSystem\\TicketingSystem.Application\\TicketingSystem.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\harfbuzzsharp\\7.3.0.1\\harfbuzzsharp.7.3.0.1.nupkg.sha512",
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.1\\harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512",
     "C:\\Users\\A C E R   N I T R O\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.1\\harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512",
